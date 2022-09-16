@@ -1,0 +1,47 @@
+.container-judul {
+  font-family: 'calibri';
+  color: #eb9008;
+  font-size: xx-large !important;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+@media screen and (min-width: 1080px) {
+  .label {
+    padding: 2rem 25rem 2rem 25rem !important;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .label {
+    padding: 2rem 5rem 2rem 5rem !important;
+  }
+}
+.add {
+  border-radius: 15px !important;
+  border: 2px solid #095266 !important;
+}
+.list {
+  border: 2px solid #095266 !important;
+  border-radius: 10px;
+}
+@media screen and (min-width: 432px) {
+  .list {
+    border: 2px solid #095266 !important;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 10px;
+    padding: 0.2rem;
+  }
+}
+.card {
+  border: 2px solid #095266 !important;
+  background-size: 100%;
+  background-image: url("../assets/images.jpg");
+}
+
+.btn {
+  color: white !important;
+}
+
+.card-title {
+  color: white;
+}
